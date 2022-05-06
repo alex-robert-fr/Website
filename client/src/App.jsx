@@ -2,6 +2,7 @@ import {useState} from 'react'
 import axios from 'axios'
 import logo from './logo.svg';
 import './App.css';
+import './style.css'
 
 const App = () => {
   const [msg, setMsg] = useState('')
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <h1 className='text-3xl font-bold underline'>Test Tailwindcss</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
