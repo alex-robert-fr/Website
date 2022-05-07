@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card{
+    @apply w-80 px-5 py-7 shadow-xl shadow-slate-200 rounded-lg shrink-0;
+  }
+  .card > img {
+    @apply w-20 rounded-full mb-5;
+  }
+  .card > h3 {
+    @apply font-bold text-lg mb-3;
+  }
+  .card > p {
+    @apply text-gray-500;
+  }
+}
